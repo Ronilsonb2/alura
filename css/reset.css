@@ -1,0 +1,48 @@
+/ * http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   Licença: nenhum (domínio público)
+* /
+
+html, corpo, div, span, applet, objeto, iframe,
+h1, h2, h3, h4, h5, h6, p, bloquearquote, pre,
+um, abrev, acrônimo, endereço, grande, cite, código,
+del, dfn, em, img, ins, kbd, q, s, samp,
+pequeno, greve, forte, sub, sup, tt, var,
+b, u, eu, centro,
+dl, dt, dd, ol, ul, li,
+fieldset, forma, etiqueta, legenda,
+tabela, subtítulo, tbody, tfoot, thead, tr, th, td,
+artigo, à parte, tela, detalhes, incorporar,
+figura, figcaption, rodapé, cabeçalho, hgroup,
+menu, navegação, saída, ruby, seção, resumo,
+time, mark, audio, video {
+	margem: 0;
+	preenchimento: 0;
+	fronteira: 0;
+	tamanho da fonte: 100%;
+	fonte: herdar;
+	alinhamento vertical: linha de base;
+}
+/ * Redefinição de função de exibição HTML5 para navegadores mais antigos * /
+artigo, além, detalhes, figcaption, figura,
+rodapé, cabeçalho, hgroup, menu, nav, section {
+	display: bloco;
+}
+corpo {
+	altura da linha: 1;
+}
+ol, ul {
+	estilo de lista: nenhum;
+}
+blockquote, q {
+	citações: nenhuma;
+}
+blockquote: antes, blockquote: depois,
+q: antes, q: depois de {
+	conteúdo: '';
+	conteúdo: nenhum;
+}
+mesa {
+	border-collapse: colapso;
+	espaçamento entre bordas: 0;
+}
