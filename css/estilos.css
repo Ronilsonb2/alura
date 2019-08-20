@@ -10,7 +10,7 @@
   width: 140px;
 }
 .sacola {
-  
+
   padding-top: 8px;
   position: absolute;
   top: 0;
@@ -19,6 +19,7 @@
 .menu-opcoes ul {
   font-size: 15px;
 }
+
 
 .menu-opcoes a {
     color: #003366;
