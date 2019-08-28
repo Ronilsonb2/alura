@@ -1,0 +1,957 @@
+/ * Bootstrap * /
+
+/ * Substituir variável padrão do Bootstrap * /
+$ icon-font-path : ' ../fonts/ '  ! padrão ;
+
+@ font-face {
+  font-family : ' ícones ' ;
+  src : url ( ' # { $ ícone-fonte-caminho } open-iconic.eot ' );
+  src : url ( ' # { $ icon-font-path } ? open-iconic.eot # icônico-sm ' ) formato ( ' embedded-OpenType ' ), url ( ' # { $ icon-font-path } open-icónica .woff ' ) formato ( ' woff ' ), url ( ' # { $ icon-font-path } open-iconic.ttf ' ) formato ( ' TrueType ' ), url ( '# { $ ícone-fonte-caminho } open-iconic.svg # iconic-sm ' ) format ( ' svg ' );
+  font-weight : normal ;
+  estilo de fonte : normal ;
+}
+
+// Catchall baseclass
+.oi {
+  posição : relativa ;
+  topo : 1 px ;
+  display : bloco inline ;
+  font-family : ' ícones ' ;
+  estilo de fonte : normal ;
+  font-weight : normal ;
+  altura da linha : 1 ;
+  -webkit-smoothing de fontes : antialiased ;
+  -moz-osx-font-smoothing : escala de cinza ;
+
+
+  & : empty : antes de {
+    largura : 1 em ;
+    texto-alinhar : centro ;
+    box-sizing : content-box ;
+  }
+
+  & .oi-align-center : antes {
+    texto-alinhar : centro ;
+  }
+
+  & .oi-align-left : antes {
+    texto-alinhar : esquerda ;
+  }
+
+  & .oi-align-right : antes {
+    texto-alinhar : direito ;
+  }
+
+
+  & .oi-flip-horizontal : antes {
+    -webkit-transform : scale ( -1 , 1 );
+    -ms-transform : escala ( -1 , 1 );
+    transformar : escala ( -1 , 1 );
+  }
+
+  & .oi-flip-vertical : antes {
+    -webkit-transform : escala ( 1 , -1 );
+    -ms-transform : escala ( -1 , 1 );
+    transformar : escala ( 1 , -1 );
+  }
+
+  & .oi-flip-horizontal-vertical : antes {
+    -webkit-transform : escala ( -1 , -1 );
+    -ms-transform : escala ( -1 , 1 );
+    transformar : escala ( -1 , -1 );
+  }
+}
+
+
+
+.oi-account-login : antes {
+  conteúdo : ' \ e000 ' ;
+}
+
+.oi-conta-logout : antes {
+  conteúdo : ' \ e001 ' ;
+}
+
+.oi-action-redo : antes {
+  conteúdo : ' \ e002 ' ;
+}
+
+.oi-action-undo : before {
+  conteúdo : ' \ e003 ' ;
+}
+
+.oi-align-center : antes {
+  conteúdo : ' \ e004 ' ;
+}
+
+.oi-align-left : antes {
+  conteúdo : ' \ e005 ' ;
+}
+
+.oi-align-right : antes {
+  conteúdo : ' \ e006 ' ;
+}
+
+.oi-abertura : antes {
+  conteúdo : ' \ e007 ' ;
+}
+
+.oi-arrow-bottom : antes {
+  conteúdo : ' \ e008 ' ;
+}
+
+.oi-arrow-circle-bottom : antes {
+  conteúdo : ' \ e009 ' ;
+}
+
+.oi-arrow-circle-left : antes {
+  conteúdo : ' \ e00a ' ;
+}
+
+.oi-arrow-circle-right : antes {
+  conteúdo : ' \ e00b ' ;
+}
+
+.oi-arrow-circle-top : antes {
+  conteúdo : ' \ e00c ' ;
+}
+
+.oi-arrow-left : antes {
+  conteúdo : ' \ e00d ' ;
+}
+
+.oi-arrow-right : antes {
+  conteúdo : ' \ e00e ' ;
+}
+
+.oi-arrow-thick-bottom : antes {
+  conteúdo : ' \ e00f ' ;
+}
+
+.oi-arrow-thick-left : antes {
+  conteúdo : ' \ e010 ' ;
+}
+
+.oi-arrow-thick-right : antes {
+  conteúdo : ' \ e011 ' ;
+}
+
+.oi-arrow-thick-top : antes {
+  conteúdo : ' \ e012 ' ;
+}
+
+.oi-arrow-top : antes {
+  conteúdo : ' \ e013 ' ;
+}
+
+.oi-audio-spectrum : before {
+  conteúdo : ' \ e014 ' ;
+}
+
+.oi-audio : before {
+  conteúdo : ' \ e015 ' ;
+}
+
+.oi-badge : antes {
+  conteúdo : ' \ e016 ' ;
+}
+
+.oi-ban : antes {
+  conteúdo : ' \ e017 ' ;
+}
+
+oi-bar-chart : antes {
+  conteúdo : ' \ e018 ' ;
+}
+
+.oi-basket : antes {
+  conteúdo : ' \ e019 ' ;
+}
+
+.oi-battery-empty : antes {
+  conteúdo : ' \ e01a ' ;
+}
+
+.oi-battery-full : antes {
+  conteúdo : ' \ e01b ' ;
+}
+
+Oi-beaker : antes {
+  conteúdo : ' \ e01c ' ;
+}
+
+.oi-bell : antes {
+  conteúdo : ' \ e01d ' ;
+}
+
+.oi-bluetooth : before {
+  conteúdo : ' \ e01e ' ;
+}
+
+.oi-bold : antes {
+  conteúdo : ' \ e01f ' ;
+}
+
+.oi-bolt : antes {
+  conteúdo : ' \ e020 ' ;
+}
+
+.oi-book : antes {
+  conteúdo : ' \ e021 ' ;
+}
+
+.oi-bookmark : before {
+  conteúdo : ' \ e022 ' ;
+}
+
+oi-box : antes {
+  conteúdo : ' \ e023 ' ;
+}
+
+maleta-oo : antes {
+  conteúdo : ' \ e024 ' ;
+}
+
+.oi-british-pound : antes {
+  conteúdo : ' \ e025 ' ;
+}
+
+.oi-browser : antes {
+  conteúdo : ' \ e026 ' ;
+}
+
+.oi-brush : antes {
+  conteúdo : ' \ e027 ' ;
+}
+
+.oi-bug : antes {
+  conteúdo : ' \ e028 ' ;
+}
+
+.oi-bullhorn : before {
+  conteúdo : ' \ e029 ' ;
+}
+
+.oi-calculator : antes {
+  conteúdo : ' \ e02a ' ;
+}
+
+.oi-calendar : before {
+  conteúdo : ' \ e02b ' ;
+}
+
+.oi-camera-slr : before {
+  conteúdo : ' \ e02c ' ;
+}
+
+.oi-caret-bottom : antes {
+  conteúdo : ' \ e02d ' ;
+}
+
+.oi-caret-left : antes {
+  conteúdo : ' \ e02e ' ;
+}
+
+.oi-caret-right : antes {
+  conteúdo : ' \ e02f ' ;
+}
+
+.oi-caret-top : before {
+  conteúdo : ' \ e030 ' ;
+}
+
+.oi-cart : antes de {
+  conteúdo : ' \ e031 ' ;
+}
+
+.oi-chat : antes {
+  conteúdo : ' \ e032 ' ;
+}
+
+.oi-check : antes {
+  conteúdo : ' \ e033 ' ;
+}
+
+.oi-chevron-bottom : antes {
+  conteúdo : ' \ e034 ' ;
+}
+
+.oi-chevron-left : antes {
+  conteúdo : ' \ e035 ' ;
+}
+
+.oi-chevron-right : antes {
+  conteúdo : ' \ e036 ' ;
+}
+
+.oi-chevron-top : antes {
+  conteúdo : ' \ e037 ' ;
+}
+
+.oi-circle-check : antes {
+  conteúdo : ' \ e038 ' ;
+}
+
+.oi-circle-x : before {
+  conteúdo : ' \ e039 ' ;
+}
+
+.oi-clipboard : antes {
+  conteúdo : ' \ e03a ' ;
+}
+
+.oi-clock : antes de {
+  conteúdo : ' \ e03b ' ;
+}
+
+.oi-cloud-download : antes {
+  conteúdo : ' \ e03c ' ;
+}
+
+.oi-cloud-upload : antes de {
+  conteúdo : ' \ e03d ' ;
+}
+
+.oi-cloud : antes {
+  conteúdo : ' \ e03e ' ;
+}
+
+.oi-cloudy : antes {
+  conteúdo : ' \ e03f ' ;
+}
+
+.oi-code : before {
+  conteúdo : ' \ e040 ' ;
+}
+
+.oi-cog : before {
+  conteúdo : ' \ e041 ' ;
+}
+
+.oi-collapse-down : antes {
+  conteúdo : ' \ e042 ' ;
+}
+
+.oi-colapso-esquerda : antes {
+  conteúdo : ' \ e043 ' ;
+}
+
+.oi-collapse-right : antes {
+  conteúdo : ' \ e044 ' ;
+}
+
+.oi-collapse-up : antes {
+  conteúdo : ' \ e045 ' ;
+}
+
+.oi-command : before {
+  conteúdo : ' \ e046 ' ;
+}
+
+.oi-comment-square : before {
+  conteúdo : ' \ e047 ' ;
+}
+
+.oi-compass : before {
+  conteúdo : ' \ e048 ' ;
+}
+
+.oi-contrast : antes {
+  conteúdo : ' \ e049 ' ;
+}
+
+.oi-copywriting : antes {
+  conteúdo : ' \ e04a ' ;
+}
+
+.oi-credit-card : antes {
+  conteúdo : ' \ e04b ' ;
+}
+
+.oi-crop : antes {
+  conteúdo : ' \ e04c ' ;
+}
+
+.oi-dashboard : antes {
+  conteúdo : ' \ e04d ' ;
+}
+
+.oi-data-transfer download : antes {
+  conteúdo : ' \ e04e ' ;
+}
+
+.oi-data-transfer-upload : antes {
+  conteúdo : ' \ e04f ' ;
+}
+
+.oi-delete : antes {
+  conteúdo : ' \ e050 ' ;
+}
+
+.oi-dial : antes {
+  conteúdo : ' \ e051 ' ;
+}
+
+.oi-document : before {
+  conteúdo : ' \ e052 ' ;
+}
+
+.oi-dollar : before {
+  conteúdo : ' \ e053 ' ;
+}
+
+.oi-double-quote-sans-left : antes {
+  conteúdo : ' \ e054 ' ;
+}
+
+.oi-double-quote-sans-right : antes {
+  conteúdo : ' \ e055 ' ;
+}
+
+.oi-double-quote-serif-left : antes {
+  conteúdo : ' \ e056 ' ;
+}
+
+.oi-double-quote-serif-right : antes {
+  conteúdo : ' \ e057 ' ;
+}
+
+oi-droplet : antes {
+  conteúdo : ' \ e058 ' ;
+}
+
+.oi-eject : antes {
+  conteúdo : ' \ e059 ' ;
+}
+
+.oi-elevator : before {
+  conteúdo : ' \ e05a ' ;
+}
+
+.oi-elipses : antes {
+  conteúdo : ' \ e05b ' ;
+}
+
+.oi-envelope-closed : antes {
+  conteúdo : ' \ e05c ' ;
+}
+
+.oi-envelope-open : antes {
+  conteúdo : ' \ e05d ' ;
+}
+
+.oi-euro : antes {
+  conteúdo : ' \ e05e ' ;
+}
+
+.oi-excerpt : before {
+  conteúdo : ' \ e05f ' ;
+}
+
+.oi-expand-down : antes {
+  conteúdo : ' \ e060 ' ;
+}
+
+.oi-expand-left : antes {
+  conteúdo : ' \ e061 ' ;
+}
+
+.oi-expand-right : antes {
+  conteúdo : ' \ e062 ' ;
+}
+
+.oi-expand-up : antes {
+  conteúdo : ' \ e063 ' ;
+}
+
+.oi-external-link : antes {
+  conteúdo : ' \ e064 ' ;
+}
+
+.oi-eye : before {
+  conteúdo : ' \ e065 ' ;
+}
+
+.oi-eyedropper : antes {
+  conteúdo : ' \ e066 ' ;
+}
+
+.oi-file : antes de {
+  conteúdo : ' \ e067 ' ;
+}
+
+.oi-fire : antes {
+  conteúdo : ' \ e068 ' ;
+}
+
+.oi-flag : antes {
+  conteúdo : ' \ e069 ' ;
+}
+
+oi-flash : antes {
+  conteúdo : ' \ e06a ' ;
+}
+
+.oi-folder : antes {
+  conteúdo : ' \ e06b ' ;
+}
+
+.oi-fork : antes {
+  conteúdo : ' \ e06c ' ;
+}
+
+.oi-fullscreen-enter : antes {
+  conteúdo : ' \ e06d ' ;
+}
+
+.oi-fullscreen-exit : antes {
+  conteúdo : ' \ e06e ' ;
+}
+
+.oi-globe : antes {
+  conteúdo : ' \ e06f ' ;
+}
+
+.oi-graph : antes {
+  conteúdo : ' \ e070 ' ;
+}
+
+.oi-grid-four-up : antes {
+  conteúdo : ' \ e071 ' ;
+}
+
+.oi-grid-three-up : antes {
+  conteúdo : ' \ e072 ' ;
+}
+
+.oi-grid-two-up : antes {
+  conteúdo : ' \ e073 ' ;
+}
+
+.oi-hard-drive : antes {
+  conteúdo : ' \ e074 ' ;
+}
+
+.oi-header : before {
+  conteúdo : ' \ e075 ' ;
+}
+
+.oi-headphones : antes {
+  conteúdo : ' \ e076 ' ;
+}
+
+.oi-heart : before {
+  conteúdo : ' \ e077 ' ;
+}
+
+.oi-home : antes {
+  conteúdo : ' \ e078 ' ;
+}
+
+oi-image : antes {
+  conteúdo : ' \ e079 ' ;
+}
+
+.oi-inbox : antes {
+  conteúdo : ' \ e07a ' ;
+}
+
+.oi-infinity : before {
+  conteúdo : ' \ e07b ' ;
+}
+
+.oi-info : antes de {
+  conteúdo : ' \ e07c ' ;
+}
+
+.oi-itálico : antes {
+  conteúdo : ' \ e07d ' ;
+}
+
+.oi-justify-center : antes {
+  conteúdo : ' \ e07e ' ;
+}
+
+.oi-justifique-esquerda : antes {
+  conteúdo : ' \ e07f ' ;
+}
+
+.oi-justifique-right : antes {
+  conteúdo : ' \ e080 ' ;
+}
+
+.oi-key : antes {
+  conteúdo : ' \ e081 ' ;
+}
+
+.oi-laptop : antes {
+  conteúdo : ' \ e082 ' ;
+}
+
+.oi-layers : antes de {
+  conteúdo : ' \ e083 ' ;
+}
+
+.oi-lightbulb : antes {
+  conteúdo : ' \ e084 ' ;
+}
+
+.oi-link-broken : antes {
+  conteúdo : ' \ e085 ' ;
+}
+
+.oi-link-intact : antes {
+  conteúdo : ' \ e086 ' ;
+}
+
+.oi-list-rich : antes {
+  conteúdo : ' \ e087 ' ;
+}
+
+.oi-list : antes {
+  conteúdo : ' \ e088 ' ;
+}
+
+.oi-location : antes {
+  conteúdo : ' \ e089 ' ;
+}
+
+.oi-lock-locked : antes {
+  conteúdo : ' \ e08a ' ;
+}
+
+.oi-lock-unlocked : antes {
+  conteúdo : ' \ e08b ' ;
+}
+
+.oi-loop-circular : antes {
+  conteúdo : ' \ e08c ' ;
+}
+
+.oi-loop-square : antes {
+  conteúdo : ' \ e08d ' ;
+}
+
+.oi-loop : antes {
+  conteúdo : ' \ e08e ' ;
+}
+
+.oi-lupa-vidro : antes {
+  conteúdo : ' \ e08f ' ;
+}
+
+.oi-map-marker : antes {
+  conteúdo : ' \ e090 ' ;
+}
+
+.oi-map : antes {
+  conteúdo : ' \ e091 ' ;
+}
+
+.oi-media-pause : antes {
+  conteúdo : ' \ e092 ' ;
+}
+
+.oi-media-play : before {
+  conteúdo : ' \ e093 ' ;
+}
+
+.oi-media-record : before {
+  conteúdo : ' \ e094 ' ;
+}
+
+.oi-media-skip-backward : antes {
+  conteúdo : ' \ e095 ' ;
+}
+
+.oi-media-skip-forward : antes {
+  conteúdo : ' \ e096 ' ;
+}
+
+.oi-media-step-backward : antes {
+  conteúdo : ' \ e097 ' ;
+}
+
+.oi-media-step-forward : before {
+  conteúdo : ' \ e098 ' ;
+}
+
+.oi-media-stop : antes {
+  conteúdo : ' \ e099 ' ;
+}
+
+.oi-medical-cross : before {
+  conteúdo : ' \ e09a ' ;
+}
+
+.oi-menu : antes {
+  conteúdo : ' \ e09b ' ;
+}
+
+.oi-microphone : antes {
+  conteúdo : ' \ e09c ' ;
+}
+
+.oi-minus : antes {
+  conteúdo : ' \ e09d ' ;
+}
+
+.oi-monitor : antes {
+  conteúdo : ' \ e09e ' ;
+}
+
+.oi-moon : antes {
+  conteúdo : ' \ e09f ' ;
+}
+
+.oi-move : antes {
+  conteúdo : ' \ e0a0 ' ;
+}
+
+oi-nota musical : antes {
+  conteúdo : ' \ e0a1 ' ;
+}
+
+.oi-paperclip : before {
+  conteúdo : ' \ e0a2 ' ;
+}
+
+.oi-pencil : antes {
+  conteúdo : ' \ e0a3 ' ;
+}
+
+.oi-people : before {
+  conteúdo : ' \ e0a4 ' ;
+}
+
+.oi-person : before {
+  conteúdo : ' \ e0a5 ' ;
+}
+
+.oi-phone : antes {
+  conteúdo : ' \ e0a6 ' ;
+}
+
+.oi-pie-chart : antes {
+  conteúdo : ' \ e0a7 ' ;
+}
+
+oi-pin : before {
+  conteúdo : ' \ e0a8 ' ;
+}
+
+.oi-play-circle : antes {
+  conteúdo : ' \ e0a9 ' ;
+}
+
+.oi-plus : antes {
+  conteúdo : ' \ e0aa ' ;
+}
+
+.oi-power-standby : before {
+  conteúdo : ' \ e0ab ' ;
+}
+
+.oi-print : antes {
+  conteúdo : ' \ e0ac ' ;
+}
+
+.oi-project : before {
+  conteúdo : ' \ e0ad ' ;
+}
+
+.oi-pulse : antes {
+  conteúdo : ' \ e0ae ' ;
+}
+
+.oi-puzzle-piece : antes {
+  conteúdo : ' \ e0af ' ;
+}
+
+.oi-question-mark : before {
+  conteúdo : ' \ e0b0 ' ;
+}
+
+.oi-rain : before {
+  conteúdo : ' \ e0b1 ' ;
+}
+
+.oi-random : before {
+  conteúdo : ' \ e0b2 ' ;
+}
+
+.oi-reload : antes {
+  conteúdo : ' \ e0b3 ' ;
+}
+
+.oi-resize-both : before {
+  conteúdo : ' \ e0b4 ' ;
+}
+
+.oi-resize-height : before {
+  conteúdo : ' \ e0b5 ' ;
+}
+
+.oi-resize-width : before {
+  conteúdo : ' \ e0b6 ' ;
+}
+
+.oi-rss-alt : before {
+  conteúdo : ' \ e0b7 ' ;
+}
+
+.oi-rss : antes {
+  conteúdo : ' \ e0b8 ' ;
+}
+
+.oi-script : antes de {
+  conteúdo : ' \ e0b9 ' ;
+}
+
+.oi-share-boxed : antes {
+  conteúdo : ' \ e0ba ' ;
+}
+
+.oi-share : antes {
+  conteúdo : ' \ e0bb ' ;
+}
+
+.oi-shield : antes {
+  conteúdo : ' \ e0bc ' ;
+}
+
+.oi-signal : before {
+  conteúdo : ' \ e0bd ' ;
+}
+
+.oi-signpost : before {
+  conteúdo : ' \ e0be ' ;
+}
+
+.oi-sort-ascending : antes {
+  conteúdo : ' \ e0bf ' ;
+}
+
+.oi-sort-descendending : before {
+  conteúdo : ' \ e0c0 ' ;
+}
+
+.oi-spreadsheet : before {
+  conteúdo : ' \ e0c1 ' ;
+}
+
+.oi-star : before {
+  conteúdo : ' \ e0c2 ' ;
+}
+
+.oi-sun : before {
+  conteúdo : ' \ e0c3 ' ;
+}
+
+.oi-tablet : antes {
+  conteúdo : ' \ e0c4 ' ;
+}
+
+.oi-tag : antes de {
+  conteúdo : ' \ e0c5 ' ;
+}
+
+.oi-tags : antes {
+  conteúdo : ' \ e0c6 ' ;
+}
+
+.oi-target : before {
+  conteúdo : ' \ e0c7 ' ;
+}
+
+.oi-task : before {
+  conteúdo : ' \ e0c8 ' ;
+}
+
+.oi-terminal : antes {
+  conteúdo : ' \ e0c9 ' ;
+}
+
+.oi-text : antes de {
+  conteúdo : ' \ e0ca ' ;
+}
+
+.oi-polegar para baixo : antes {
+  conteúdo : ' \ e0cb ' ;
+}
+
+.oi-thumb-up : before {
+  conteúdo : ' \ e0cc ' ;
+}
+
+.oi-timer : antes {
+  conteúdo : ' \ e0cd ' ;
+}
+
+.oi-transfer : antes de {
+  conteúdo : ' \ e0ce ' ;
+}
+
+.oi-trash : antes {
+  conteúdo : ' \ e0cf ' ;
+}
+
+.oi-underline : before {
+  conteúdo : ' \ e0d0 ' ;
+}
+
+.oi-vertical-align-bottom : antes {
+  conteúdo : ' \ e0d1 ' ;
+}
+
+.oi-vertical-align-center : antes {
+  conteúdo : ' \ e0d2 ' ;
+}
+
+.oi-vertical-align-top : antes {
+  conteúdo : ' \ e0d3 ' ;
+}
+
+.oi-video : before {
+  conteúdo : ' \ e0d4 ' ;
+}
+
+.oi-volume-high : before {
+  conteúdo : ' \ e0d5 ' ;
+}
+
+.oi-volume-low : before {
+  conteúdo : ' \ e0d6 ' ;
+}
+
+.oi-volume-off : before {
+  conteúdo : ' \ e0d7 ' ;
+}
+
+.oi-warning : antes {
+  conteúdo : ' \ e0d8 ' ;
+}
+
+.oi-wifi : antes {
+  conteúdo : ' \ e0d9 ' ;
+}
+
+.oi-wrench : antes {
+  conteúdo : ' \ e0da ' ;
+}
+
+.oi-x : before {
+  conteúdo : ' \ e0db ' ;
+}
+
+.oi-yen : before {
+  conteúdo : ' \ e0dc ' ;
+}
+
+.oi-zoom-in : antes {
+  conteúdo : ' \ e0dd ' ;
+}
+
+.oi-zoom-out : antes {
+  conteúdo : ' \ e0de ' ;
+}

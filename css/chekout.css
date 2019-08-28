@@ -1,0 +1,8 @@
+.form-control:invalid {
+  border: 1px solid #CC0000;
+} /* efeito de borada sobre um campo invaliudo ou nao-preenchido */
+/*# sourceMappingURL=bootstrap.css.map */
+
+body{
+  padding-top: 55px;
+}
